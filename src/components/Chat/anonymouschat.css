@@ -1,0 +1,115 @@
+.anonymous-chat-btn-reset {
+  padding: 0;
+  border: none;
+  outline: none;
+  text-align: center;
+  color: #000000;
+  background-color: transparent;
+  cursor: pointer;
+}
+.anonymous-chat-list-reset {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.anonymous-chat-input-reset {
+  padding: 0;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  resize: none;
+  outline: none;
+  border-radius: 0;
+  background-color: transparent;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+.anonymous-chat {
+  width: 500px;
+  border: 10px solid gray;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.anonymous-chat__messages {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  padding: 15px 30px;
+  background-color: beige;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.anonymous-chat__message {
+  position: relative;
+  display: flex;
+  padding: 3px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  color: white;
+  word-break: break-all;
+}
+.anonymous-chat__new-message {
+  display: flex;
+  gap: 10px;
+  padding: 0 30px;
+  padding-bottom: 10px;
+  border-top: 10px solid gray;
+  background-color: rgb(192, 192, 192);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.anonymous-chat__textarea {
+  padding: 10px;
+  width: 100%;
+}
+.anonymous-chat__btn-send {
+  align-self: center;
+  padding: 20px 10px;
+  background-color: rgb(0, 128, 38);
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.my-message {
+  align-self: flex-end;
+  width: 45%;
+  border: 1px solid red;
+  background-color: rgb(214, 86, 86);
+}
+.my-message::after,
+.other-message::after {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  content: "Вы";
+  font-size: 11px;
+  color: white;
+  background-color: #000000;
+  padding: 2px;
+}
+.other-message {
+  align-self: flex-start;
+  width: 45%;
+  border: 1px solid blue;
+  background-color: rgb(69, 69, 175);
+}
+.other-message::after {
+  content: "Аноним";
+}

@@ -1,0 +1,164 @@
+a {
+  outline: none;
+  color: inherit;
+  text-decoration: none;
+}
+.btn-reset {
+  padding: 0;
+  border: none;
+  outline: none;
+  text-align: center;
+  color: #000000;
+  background-color: transparent;
+  cursor: pointer;
+}
+.list-reset {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.input-reset {
+  padding: 0;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  resize: none;
+  outline: none;
+  border-radius: 0;
+  background-color: transparent;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+.worldClock {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.worldClock__wrapper {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.worldClock__wrapper-name,
+.worldClock__label-number {
+  display: flex;
+  flex-direction: column;
+}
+
+.worldClock__input-name,
+.worldClock__input-number {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px;
+}
+
+.worldClock__add-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 150px;
+}
+.worldClock__title,
+.worldClock__time {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+}
+.worldClock__title {
+  border-bottom: 1px solid black;
+}
+.worldClock__btn {
+  padding: 10px 15px;
+  margin-top: 10px;
+  border: 3px solid rgb(205, 138, 50);
+  background-color: rgb(51, 150, 51);
+  color: white;
+  font-weight: 700;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  box-shadow: 0px 0px 10px 3px green;
+}
+
+.worldClock__input-name,
+.worldClock__input-number {
+  border: 3px solid green;
+  box-shadow: 0px 0px 10px 3px green;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.worldClock__item {
+  /* display: none; */
+  position: relative;
+  border: 1px solid rgb(182, 182, 182);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  box-shadow: 0px 0px 10px 3px green;
+}
+
+/* .active {
+  display: block;
+} */
+
+.worldClock__btn-remove {
+  visibility: hidden;
+}
+
+.worldClock__item:hover .worldClock__btn-remove {
+  visibility: visible;
+}
+
+.worldClock__item:hover {
+  box-shadow: 1px 1px 10px 1px red;
+}
+
+.worldClock__btn-remove {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 3px 5px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.worldClock__label-name,
+.worldClock__label-number {
+  margin-bottom: 10px;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgb(110, 110, 110);
+}
+.worldClock__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+}
+
+.worldClock__input-name-error {
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+  text-align: center;
+}
