@@ -1,12 +1,12 @@
 # Жизненный цикл и работа с HTTP
 
-<!-- [![Appveyor Build status](https://ci.appveyor.com/api/projects/status/pfciwxkblwoa76be?svg=true)](https://ci.appveyor.com/project/RomanMenshikov92/ra-16-react-lifecycle-and-working-with-HTTP) -->
+[![Appveyor Build status](https://ci.appveyor.com/api/projects/status/d01vp6w9t411beyo?svg=true)](https://ci.appveyor.com/project/RomanMenshikov92/ra-16-react-lifecycle-and-working-with-http)
 
-<!-- [![Pages build status](https://github.com/RomanMenshikov92/ra-16-react-lifecycle-and-working-with-HTTP/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/RomanMenshikov92/ra-16-react-lifecycle-and-working-with-HTTP/actions/workflows/pages/pages-build-deployment) -->
+[![Pages build status](https://github.com/RomanMenshikov92/ra-16-react-lifecycle-and-working-with-HTTP/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/RomanMenshikov92/ra-16-react-lifecycle-and-working-with-HTTP/actions/workflows/pages/pages-build-deployment)
 
 ---
 
-<!-- ## [GutHub Pages](https://romanmenshikov92.github.io/ra-16-react-lifecycle-and-working-with-HTTP/) -->
+## [GutHub Pages](https://romanmenshikov92.github.io/ra-16-react-lifecycle-and-working-with-HTTP/)
 
 Необходимо выполнить и предоставить на проверку следующие задачи:
 
