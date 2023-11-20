@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ra-16-react-lifecycle-and-working-with-HTTP/static/css/main.d293c389.css",
+    "main.js": "/ra-16-react-lifecycle-and-working-with-HTTP/static/js/main.2689c6e7.js",
+    "static/js/787.a6e45276.chunk.js": "/ra-16-react-lifecycle-and-working-with-HTTP/static/js/787.a6e45276.chunk.js",
+    "index.html": "/ra-16-react-lifecycle-and-working-with-HTTP/index.html",
+    "main.d293c389.css.map": "/ra-16-react-lifecycle-and-working-with-HTTP/static/css/main.d293c389.css.map",
+    "main.2689c6e7.js.map": "/ra-16-react-lifecycle-and-working-with-HTTP/static/js/main.2689c6e7.js.map",
+    "787.a6e45276.chunk.js.map": "/ra-16-react-lifecycle-and-working-with-HTTP/static/js/787.a6e45276.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d293c389.css",
+    "static/js/main.2689c6e7.js"
+  ]
+}
