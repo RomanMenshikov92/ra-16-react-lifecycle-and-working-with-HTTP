@@ -13,7 +13,7 @@ app.use(
   })
 );
 app.use(function (req, res, next) {
-  res.setHeader('Content-Type', 'application/json');
+  res.setHeader("Content-Type", "application/json");
   next();
 });
 
@@ -39,5 +39,5 @@ app.post("/messages", (req, res) => {
   res.end();
 });
 
-const port = process.env.PORT || 7070;
+const port = process.env.PORT || 7080;
 app.listen(port, () => console.log(`The server is running on port ${port}.`));
